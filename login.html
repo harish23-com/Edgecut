@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+body {
+    margin: 10vh;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(95deg, #66cdea, #ce62c9);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 320px;
+}
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn_login {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.social-buttons {
+    text-align: center;
+}
+.social-buttons button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+}
+.social-btn1 { background-color: #3b5998; }  
+.social-btn2 { background-color: #1da1f2; }  
+.social-btn3 { background-color: #db4437; }  
+.signup {
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Login</h1>
+
+    <label>Username</label>
+    <input type="text" placeholder="Type your username">
+
+    <label>Password</label>
+    <input type="password" placeholder="Type your password">
+    <a href="#">Forgot password?</a><br><br>
+    <button class="btn_login">Login</button>
+    <p style="text-align: center;">Or Sign Up Using</p>
+    <div class="social-buttons">
+        <button class="social-btn1">f</button>
+        <button class="social-btn2">x</button>
+        <button class="social-btn3">G</button>
+    </div>
+    <div class="signup">
+        <p>Don't have an account? <b>Sign Up</b></p>
+    </div>
+</div>
+</body>
+</html>
